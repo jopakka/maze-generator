@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: auto;
+    background-color: lightgray;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.side-menu {
+    grid-column: 1;
+    background-color: aliceblue;
+    height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+#recursiveForm input[type="button"],
+#recursiveForm input[type="range"] {
+    width: 100%;
+}
+
+.maze-canvas {
+    grid-column: 2;
+    background-color: gray;
+    margin: 20px;
+}

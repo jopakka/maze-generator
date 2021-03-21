@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Maze testing</title>
+</head>
+<body onload="drawGrid()">
+<main>
+    <div class="side-menu">
+        <h1>Maze generator</h1>
+        <p>Generates maze using recursive depth-first search</p>
+        <form id="recursiveForm">
+            <label for="form-width" id="form-width-text">Width: 20</label><br>
+            <input type="range" min="1" max="30" value="20" id="form-width"><br>
+            <label for="form-width" id="form-height-text">Height: 20</label><br>
+            <input type="range" min="1" max="30" value="20" id="form-height"><br>
+            <label for="form-visualize">Visualize</label>
+            <input type="checkbox" checked id="form-visualize"><br><br>
+            <input type="button" id="form-generate" value="Generate">
+        </form>
+    </div>
+    <canvas class="maze-canvas" width="600" height="600"></canvas>
+</main>
+
+<script src="./recursive_backtracking_maze.js"></script>
+<script src="./maze.js"></script>
+</body>
+</html>
