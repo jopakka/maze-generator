@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8f48453-9d7a-4380-84d8-08188b474b9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/maze.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ptUKJq9O5YCiOlTF2nHuwFBtZ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Code projects/jopakka.github.io" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8f48453-9d7a-4380-84d8-08188b474b9e" name="Default Changelist" comment="" />
+      <created>1616001819208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616001819208</updated>
+      <workItem from="1616001822375" duration="13938000" />
+      <workItem from="1616049262903" duration="1096000" />
+      <workItem from="1616061009294" duration="9065000" />
+      <workItem from="1616141323625" duration="7953000" />
+      <workItem from="1616156277728" duration="10575000" />
+      <workItem from="1616182626200" duration="3295000" />
+      <workItem from="1616227585766" duration="8454000" />
+      <workItem from="1616248518109" duration="15489000" />
+      <workItem from="1616314408670" duration="20585000" />
+      <workItem from="1616351069253" duration="7331000" />
+      <workItem from="1616395599395" duration="743000" />
+      <workItem from="1616417131699" duration="2155000" />
+      <workItem from="1616443701490" duration="3065000" />
+      <workItem from="1616494787103" duration="1952000" />
+      <workItem from="1616510534271" duration="11811000" />
+      <workItem from="1616528714409" duration="785000" />
+      <workItem from="1616566623383" duration="3242000" />
+      <workItem from="1616579714053" duration="3107000" />
+      <workItem from="1616583499142" duration="12000" />
+    </task>
+    <task id="LOCAL−00001" summary="maze generation work">
+      <created>1616354870392</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1616354870392</updated>
+    </task>
+    <task id="LOCAL−00002" summary="pathfinding work">
+      <created>1616581886336</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1616581886336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maze generation work" />
+    <MESSAGE value="pathfinding work" />
+    <option name="LAST_COMMIT_MESSAGE" value="pathfinding work" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616328336586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616328336586" />
+    <state x="585" y="107" key="CommitChangelistDialog2" timestamp="1616581884584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616581884584" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616582745443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616582745443" />
+    <state x="768" y="222" key="RollbackChangesDialog" timestamp="1616514120849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616514120849" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1616002588623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616002588623" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616581889113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616581889113" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616524372064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616524372064" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616354911956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616354911956" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616323263809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-100.1920.1040@0.0.1920.1040" timestamp="1616323263809" />
+  </component>
+</project>
