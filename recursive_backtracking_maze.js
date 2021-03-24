@@ -79,15 +79,17 @@ const recursiveBacktrackingMaze = (canvas) => {
         this.ctx.fillRect(x, y, settings.cs, settings.cs);
       }
 
-      this.ctx.lineWidth = 1
+      this.ctx.lineWidth = 1;
       if (this.walls[0])
         drawLine(x, y, x + settings.cs, y, this.ctx);
       if (this.walls[1])
-        drawLine(x, y + settings.cs, x + settings.cs, y + settings.cs, this.ctx);
+        drawLine(x, y + settings.cs, x + settings.cs, y + settings.cs,
+            this.ctx);
       if (this.walls[2])
         drawLine(x, y, x, y + settings.cs, this.ctx);
       if (this.walls[3])
-        drawLine(x + settings.cs, y, x + settings.cs, y + settings.cs, this.ctx);
+        drawLine(x + settings.cs, y, x + settings.cs, y + settings.cs,
+            this.ctx);
     }
   };
 
@@ -141,15 +143,10 @@ const recursiveBacktrackingMaze = (canvas) => {
       if (settings.visualise) {
         grid[index].current = true;
         grid[index].draw();
-      }
-
-      if (nextIndex === -1) continue;
-
-      if (settings.visualise) {
         await new Promise(r => setTimeout(r, 10));
       }
 
-      if (!grid[nextIndex].visited) {
+      if (nextIndex !== -1 && !grid[nextIndex].visited) {
         grid[nextIndex].visitFrom(OPPOSITE[dir]);
         grid[index].goTo(DIRECTIONS[dir]);
         if (settings.visualise) {
@@ -184,9 +181,9 @@ const recursiveBacktrackingMaze = (canvas) => {
     initGrid();
     await recursiveBacktrack(sx, sy, grid);
     if (!settings.visualise) {
-      drawGrid(grid);
+      drawGrid();
     }
-    return maxSteps;
+    return {grid, maxSteps, rows: settings.rows, columns: settings.cols}
   };
 
   const setup = (w, h, cs, v) => {
@@ -201,8 +198,7 @@ const recursiveBacktrackingMaze = (canvas) => {
     setup,
     drawGrid,
     clearMaze,
-    grid,
-    settings
+    settings,
   };
 
 };

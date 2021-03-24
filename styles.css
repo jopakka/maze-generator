@@ -18,6 +18,15 @@ p {
     margin-bottom: 1em;
 }
 
+label {
+    font-size: 1.2em;
+}
+
+input[type="button"],
+input[type="range"] {
+    width: 100%;
+}
+
 .side-menu {
     grid-column: 1;
     background-color: aliceblue;
@@ -26,13 +35,149 @@ p {
     overflow-x: hidden;
 }
 
-#recursiveForm input[type="button"],
-#recursiveForm input[type="range"] {
+.button {
+    background-color: #0071d4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: #458cd0;
+}
+
+.button:active {
+    background-color: #003296;
+}
+
+.button:disabled {
+    background-color: #92c7f5;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0071d4;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #0071d4;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: max-content;
+}
+
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: 2px solid #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-container .checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.check-container input:hover ~ .checkmark {
+    background-color: #d3d3d3;
+}
+
+.check-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.divider {
+    border-bottom: 2px dashed black;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.canvas-container {
+    grid-column: 2;
+    position: relative;
+    width: calc(100% - 40px);
+    height: calc(100vh - 40px);
+    margin: 20px;
 }
 
 .maze-canvas {
-    grid-column: 2;
     background-color: gray;
-    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.pathfind-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
 }

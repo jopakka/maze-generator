@@ -8,25 +8,39 @@
 
     <title>Maze testing</title>
 </head>
-<body onload="drawGrid()">
+<body onload="fitCanvas()">
 <main>
     <div class="side-menu">
         <h1>Maze generator</h1>
         <p>Generates maze using recursive depth-first search</p>
-        <form id="recursiveForm">
-            <label for="form-width" id="form-width-text">Width: 20</label><br>
-            <input type="range" min="1" max="30" value="20" id="form-width"><br>
-            <label for="form-width" id="form-height-text">Height: 20</label><br>
-            <input type="range" min="1" max="30" value="20" id="form-height"><br>
-            <label for="form-visualize">Visualize</label>
-            <input type="checkbox" checked id="form-visualize"><br><br>
-            <input type="button" id="form-generate" value="Generate">
+        <form>
+            <label for="form-size" id="form-size-text">Cell Size: 20</label><br>
+            <input type="range" class="slider" min="15" max="200" value="40" id="form-size"><br>
+            <label class="check-container">Visualize generation
+                <input type="checkbox" checked id="form-visualize-maze">
+                <span class="checkmark"></span>
+            </label><br>
+            <input type="button" class="button" id="form-generate" value="Generate">
+        </form>
+        <div class="divider"></div>
+        <h1>Pathfinding</h1>
+        <p>Generates path from top left corner to bottom right corner using A* algorithm</p>
+        <form>
+            <label class="check-container">Visualize pathfinding
+                <input type="checkbox" checked id="form-visualize-path">
+                <span class="checkmark"></span>
+            </label><br>
+            <input type="button" class="button" id="form-generate-path" value="Generate">
         </form>
     </div>
-    <canvas class="maze-canvas" width="600" height="600"></canvas>
+    <div class="canvas-container">
+        <canvas class="maze-canvas" width="640" height="360"></canvas>
+        <canvas class="pathfind-canvas" width="640" height="360"></canvas>
+    </div>
 </main>
 
 <script src="./recursive_backtracking_maze.js"></script>
+<script src="./a_star.js"></script>
 <script src="./maze.js"></script>
 </body>
 </html>
